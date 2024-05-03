@@ -8,6 +8,18 @@
 [Usar múltiples usuarios con Git - DEV Community](https://dev.to/equimancho/usar-multiples-usuarios-con-git-1fci)
 
 
+## Git Config
+
+Add VSCode as default editor for git
+
+    Git config --global core.editor "code --wait"
+
+Open the config file of the repository
+
+    Git config --edit --local
+
+
+
 ## Connect PC to github via SSH
 TODO for each account
 [How To Work With Multiple Github Accounts on your PC](https://gist.github.com/rahularity/86da20fe3858e6b311de068201d279e3#file-work-with-multiple-github-accounts-md)
@@ -39,14 +51,3 @@ Host ntacv
     FROM TO
     git@github.com:username/repo.git
     git@HOST:username/repo.git
-    
-Git config --global core.editor "code --wait"
-Git config --edit --local
-
-
-Usar múltiples usuarios con Git - DEV Community
-How to use multiple users with Git - DEV Community
-    
-How To Work With Multiple Github Accounts on your PC
-
-Generating a new SSH key and adding it to the ssh-agent - GitHub Docs
