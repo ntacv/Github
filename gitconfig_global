@@ -1,0 +1,17 @@
+[includeIf "gitdir/i:~/Github/ntacv/"]
+	path = ~/Github/ntacv/.gitconfig
+[includeIf "gitdir/i:~/Github/totalenergies/"]
+	path = ~/Github/totalenergies/.gitconfig
+
+
+[user]
+	name = Nathan CHOUKROUN
+	email = AL1127487@admin.hubtotal.net
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[core]
+	editor = code --wait
+
