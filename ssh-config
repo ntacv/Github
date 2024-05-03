@@ -1,0 +1,30 @@
+.ssh/config
+
+
+Host ntacv
+    HostName github.com
+    User git
+    AddKeysToAgent yes
+    IdentitiesOnly yes
+    IdentityFile ~/.ssh/key_github_ntacv
+
+Host onepoint
+    HostName github.com
+    User git
+    AddKeysToAgent yes
+    IdentitiesOnly yes
+    IdentityFile ~/.ssh/github_onepoint
+
+Host totalenergies
+    HostName github.com
+    User git
+    AddKeysToAgent yes
+    IdentitiesOnly yes
+    IdentityFile ~/.ssh/github_totalenergies
+
+Host onepoint_gitlab
+    Hostname gitlab.com
+    User git
+    AddKeysToAgent yes
+    IdentitiesOnly yes
+    IdentityFile ~/.ssh/gitlab_onepoint
